@@ -14,3 +14,10 @@ a Changelog, and the project uses semantic versioning.
 ### Fixed
 
 - The diff command reports guards with equal scores in name order, so two
+  runs over the same pair produce the same report.
+
+## [1.0.3] - 2025-10-14
+
+### Added
+
+- JSON output for run and diff.
