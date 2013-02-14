@@ -33,3 +33,9 @@ a Changelog, and the project uses semantic versioning.
 
 ### Fixed
 
+- Score ordering is stable for equal breach counts.
+
+## [1.0.0] - 2022-11-22
+
+### Added
+
