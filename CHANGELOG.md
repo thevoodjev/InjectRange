@@ -21,3 +21,9 @@ a Changelog, and the project uses semantic versioning.
 ### Added
 
 - JSON output for run and diff.
+
+## [1.0.2] - 2024-09-10
+
+### Fixed
+
+- The corpus verifier folds duplicate probe ids instead of counting them
