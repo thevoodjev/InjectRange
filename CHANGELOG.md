@@ -39,3 +39,9 @@ a Changelog, and the project uses semantic versioning.
 
 ### Added
 
+- Stable CLI contract for run, corpus, diff, and version, exit codes 0/1/2.
+- Tests pin the scoring arithmetic across the bundled guards.
+
+## [0.9.5] - 2021-06-15
+
+### Changed
