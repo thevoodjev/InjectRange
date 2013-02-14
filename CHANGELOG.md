@@ -27,3 +27,9 @@ a Changelog, and the project uses semantic versioning.
 ### Fixed
 
 - The corpus verifier folds duplicate probe ids instead of counting them
+  twice.
+
+## [1.0.1] - 2023-07-04
+
+### Fixed
+
