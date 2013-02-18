@@ -58,3 +58,9 @@ a Changelog, and the project uses semantic versioning.
 
 ### Added
 
+- Corpus verification: ids unique, classes covered, nothing unreachable.
+
+## [0.7.0] - 2018-10-02
+
+### Added
+
