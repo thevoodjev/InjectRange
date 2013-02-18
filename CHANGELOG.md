@@ -52,3 +52,9 @@ a Changelog, and the project uses semantic versioning.
 
 ### Added
 
+- Diff mode comparing two guards against the same corpus.
+
+## [0.8.0] - 2019-08-13
+
+### Added
+
