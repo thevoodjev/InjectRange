@@ -64,3 +64,9 @@ a Changelog, and the project uses semantic versioning.
 
 ### Added
 
+- Bundled permissive and strict guard profiles.
+- README walkthrough captured from a real run.
+
+## [0.6.0] - 2017-04-18
+
+### Added
