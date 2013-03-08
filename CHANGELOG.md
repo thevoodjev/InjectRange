@@ -70,3 +70,9 @@ a Changelog, and the project uses semantic versioning.
 ## [0.6.0] - 2017-04-18
 
 ### Added
+
+- Test suite covering classes, harness, and the CLI.
+- CLI entry point with subcommands.
+
+## [0.5.0] - 2016-07-26
+
