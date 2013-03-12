@@ -76,3 +76,10 @@ a Changelog, and the project uses semantic versioning.
 
 ## [0.5.0] - 2016-07-26
 
+### Added
+
+- Report renderer with stable per probe lines.
+- Harness wiring: one guard evaluated against the whole corpus.
+
+## [0.4.0] - 2015-11-11
+
