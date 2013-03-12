@@ -83,3 +83,9 @@ a Changelog, and the project uses semantic versioning.
 
 ## [0.4.0] - 2015-11-11
 
+### Added
+
+- Harness skeleton running a guard probe by probe.
+
+## [0.3.0] - 2014-06-03
+
