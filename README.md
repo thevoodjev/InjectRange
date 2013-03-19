@@ -157,3 +157,18 @@ capability as something to reject, regardless of which tool is named.
 
 A probe here frames a request as a reason to reveal held secrets, dressing the
 disclosure up as debugging, auditing, or verification. Closing the class means
+recognising that a plausible-sounding pretext for surfacing hidden state is
+still a request to surface hidden state.
+
+
+## Corpus pinning and integrity
+
+The corpus is pinned by a sha256 digest, but the digest is not taken over the
+raw file bytes. It is computed over a canonical form: the patterns are sorted by
+id, each is reduced to its id, class, and text, and the whole is serialised with
+sorted keys and no incidental whitespace. Hashing that canonical form means the
+digest is stable across platforms and indifferent to how the source file is
+formatted or how its entries are ordered. Reformatting the JSON or reordering
+the entries does not change the digest, while changing any id, class, or text
+does. A test in the suite confirms the digest is unchanged when the pattern list
+is reversed.
