@@ -305,3 +305,18 @@ not a claim that the class cannot be closed.
 Diff the two guards to see what changed between them:
 
 ```
+python -m injectrange diff samples/guard-permissive.json samples/guard-strict.json
+```
+
+```
+diff
+base guard: permissive
+head guard: strict
+
+class                   base leaked  head leaked  change
+--------------------------------------------------------
+Instruction override              3            0  closed
+Role confusion                    3            0  closed
+Delimiter escape                  4            4  same
+Encoding smuggling                4            0  closed
+Tool coercion                     4            0  closed
