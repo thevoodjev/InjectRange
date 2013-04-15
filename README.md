@@ -291,3 +291,17 @@ class                   total blocked  leaked  status
 Instruction override        4       4       0  closed
 Role confusion              4       4       0  closed
 Delimiter escape            4       0       4  BREACH
+Encoding smuggling          4       4       0  closed
+Tool coercion               4       4       0  closed
+Exfiltration framing        4       4       0  closed
+-----------------------------------------------------
+breached classes: 1 of 6
+```
+
+Delimiter escape is left open in the strict sample on purpose, so the range
+still reports a real breach and the diff below has real movement to show. It is
+not a claim that the class cannot be closed.
+
+Diff the two guards to see what changed between them:
+
+```
