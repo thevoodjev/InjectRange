@@ -320,3 +320,18 @@ Role confusion                    3            0  closed
 Delimiter escape                  4            4  same
 Encoding smuggling                4            0  closed
 Tool coercion                     4            0  closed
+Exfiltration framing              4            0  closed
+--------------------------------------------------------
+classes opened: 0
+classes closed: 5
+```
+
+
+## Reading the matrix
+
+The matrix figure below is built from the two runs above, with the real leaked
+over total counts baked into each cell.
+
+![Breach matrix, six classes by two guard configs. Each cell shows leaked over
+total probes. The permissive guard breaches all six classes; the strict guard
+closes five and leaves delimiter escape open](docs/assets/breach-matrix.svg)
