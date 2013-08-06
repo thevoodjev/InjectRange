@@ -9,3 +9,7 @@ opening rather than a single opaque score change.
 from __future__ import annotations
 
 from typing import Dict, List, NamedTuple
+
+
+class BreachClass(NamedTuple):
+    """One family of injection technique."""
