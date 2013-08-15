@@ -13,3 +13,7 @@ from typing import Dict, List, NamedTuple
 
 class BreachClass(NamedTuple):
     """One family of injection technique."""
+
+    key: str
+    title: str
+    description: str
