@@ -26,3 +26,7 @@ BREACH_CLASSES: List[BreachClass] = [
         title="Instruction override",
         description="Attempts to cancel or replace the standing instructions.",
     ),
+    BreachClass(
+        key="role_confusion",
+        title="Role confusion",
+        description="Attempts to reassign the assistant to a new persona or role.",
