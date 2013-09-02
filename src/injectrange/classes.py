@@ -43,3 +43,7 @@ BREACH_CLASSES: List[BreachClass] = [
     ),
     BreachClass(
         key="tool_coercion",
+        title="Tool coercion",
+        description="Attempts to force an unrequested tool or command invocation.",
+    ),
+    BreachClass(
