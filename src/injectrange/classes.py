@@ -47,3 +47,7 @@ BREACH_CLASSES: List[BreachClass] = [
         description="Attempts to force an unrequested tool or command invocation.",
     ),
     BreachClass(
+        key="exfiltration_framing",
+        title="Exfiltration framing",
+        description="Attempts to frame a request as a reason to reveal held secrets.",
+    ),
