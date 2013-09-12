@@ -55,3 +55,8 @@ BREACH_CLASSES: List[BreachClass] = [
 
 CLASS_KEYS: List[str] = [c.key for c in BREACH_CLASSES]
 
+_BY_KEY: Dict[str, BreachClass] = {c.key: c for c in BREACH_CLASSES}
+
+
+def get_class(key: str) -> BreachClass:
+    """Return the breach class for a key, or raise KeyError with a clear message."""
