@@ -13,3 +13,12 @@ from typing import Dict, List, NamedTuple
 from . import classes
 from .corpus import Corpus
 from .guard import Guard
+
+
+class ClassOutcome(NamedTuple):
+    """Per-class tally: total probes, how many leaked, whether it breached."""
+
+    cls: str
+    total: int
+    leaked: int
+
