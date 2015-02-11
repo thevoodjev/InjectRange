@@ -30,3 +30,12 @@ class ClassOutcome(NamedTuple):
     def breached(self) -> bool:
         return self.leaked > 0
 
+
+class RunResult(NamedTuple):
+    """A full run: which guard, which corpus, and the per-class outcomes."""
+
+    guard_name: str
+    corpus_version: str
+    corpus_digest: str
+    outcomes: List[ClassOutcome]
+
