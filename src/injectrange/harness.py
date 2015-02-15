@@ -48,3 +48,11 @@ class RunResult(NamedTuple):
         return any(o.breached for o in self.outcomes)
 
 
+def run(corpus: Corpus, guard: Guard) -> RunResult:
+    """Evaluate the corpus against the guard and return per-class outcomes.
+
+    Outcomes are ordered by the fixed taxonomy so two runs diff cleanly.
+    """
+    totals: Dict[str, int] = {key: 0 for key in classes.CLASS_KEYS}
+    leaked: Dict[str, int] = {key: 0 for key in classes.CLASS_KEYS}
+
