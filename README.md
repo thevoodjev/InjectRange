@@ -559,4 +559,4 @@ These are directions, not dated promises.
 
 MIT, see [LICENSE](LICENSE).
 
-<!-- draft note 674 -->
+<!-- draft note 675 -->
