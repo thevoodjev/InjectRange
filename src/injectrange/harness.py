@@ -56,3 +56,17 @@ def run(corpus: Corpus, guard: Guard) -> RunResult:
     totals: Dict[str, int] = {key: 0 for key in classes.CLASS_KEYS}
     leaked: Dict[str, int] = {key: 0 for key in classes.CLASS_KEYS}
 
+    for pattern in corpus.patterns:
+        totals[pattern.cls] += 1
+        if not guard.blocks(pattern.text):
+            leaked[pattern.cls] += 1
+
+    outcomes = [
+        ClassOutcome(cls=key, total=totals[key], leaked=leaked[key])
+        for key in classes.CLASS_KEYS
+    ]
+    return RunResult(
+        guard_name=guard.name,
+        corpus_version=corpus.version,
+        corpus_digest=corpus.digest,
+        outcomes=outcomes,
