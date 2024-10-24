@@ -557,3 +557,6 @@ These are directions, not dated promises.
 
 ## License
 
+MIT, see [LICENSE](LICENSE).
+
+<!-- draft note 1637 -->
