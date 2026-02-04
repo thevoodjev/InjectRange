@@ -70,3 +70,6 @@ def run(corpus: Corpus, guard: Guard) -> RunResult:
         corpus_version=corpus.version,
         corpus_digest=corpus.digest,
         outcomes=outcomes,
+    )
+
+# draft note 1978
