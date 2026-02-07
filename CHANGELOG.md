@@ -89,3 +89,20 @@ a Changelog, and the project uses semantic versioning.
 
 ## [0.3.0] - 2014-06-03
 
+### Added
+
+- Guard interface: a callable that answers allow or block per probe.
+
+## [0.2.0] - 2013-09-17
+
+### Added
+
+- Corpus reader with typed probes and classes.
+
+## [0.1.0] - 2012-05-08
+
+### Added
+
+- Initial probe classes and a single evaluation entry point.
+
+<!-- draft note 1979 -->
