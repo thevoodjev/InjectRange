@@ -116,4 +116,4 @@ def counts_by_class(corpus: Corpus) -> Dict[str, int]:
         result[pattern.cls] += 1
     return result
 
-# draft note 1967
+# draft note 1989
