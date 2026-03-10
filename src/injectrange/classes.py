@@ -71,4 +71,4 @@ def is_known(key: str) -> bool:
     """Report whether a key names a known breach class."""
     return key in _BY_KEY
 
-# draft note 1976
+# draft note 1992
