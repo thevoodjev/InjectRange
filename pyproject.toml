@@ -22,3 +22,10 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [tool.setuptools.package-data]
+injectrange = []
+
+[project.urls]
+Homepage = "https://github.com/thevoodjev/InjectRange"
+Source = "https://github.com/thevoodjev/InjectRange"
+
+<!-- draft note 2011 -->
