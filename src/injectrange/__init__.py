@@ -2,4 +2,4 @@
 
 __version__ = "1.0.4"
 
-# draft note 2004
+# draft note 2018
