@@ -109,4 +109,4 @@ def render_corpus_summary(version: str, digest: str, counts: Dict[str, int]) -> 
     lines.append("%-22s %6d" % ("total", total))
     return lines
 
-# draft note 2025
+# draft note 2026
