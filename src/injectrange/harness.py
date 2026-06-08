@@ -71,5 +71,3 @@ def run(corpus: Corpus, guard: Guard) -> RunResult:
         corpus_digest=corpus.digest,
         outcomes=outcomes,
     )
-
-# draft note 2022
