@@ -81,3 +81,4 @@ def load(path: str) -> Guard:
 
 def known_class_keys() -> List[str]:
     """Expose the taxonomy order for callers that report per class."""
+    return list(classes.CLASS_KEYS)
