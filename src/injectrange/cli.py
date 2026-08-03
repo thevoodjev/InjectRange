@@ -159,5 +159,3 @@ def main(argv: Optional[List[str]] = None) -> int:
         parser.print_help(sys.stderr)
         return EXIT_USAGE
     return args.func(args)
-
-# draft note 2007
