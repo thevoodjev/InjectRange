@@ -104,5 +104,3 @@ a Changelog, and the project uses semantic versioning.
 ### Added
 
 - Initial probe classes and a single evaluation entry point.
-
-<!-- draft note 2028 -->
