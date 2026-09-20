@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Palette reason: probes against a guard boundary. Ink lifted to #e6edf3 carries
+  the wordmark body and structural text on #0d1117. Blocked green lifted to
+  #3fb37f is the guard that holds; the single accent, breach red lifted to
+  #e2543c, marks the one probe that leaks. Neutrals are greys only.
+  Contrast on #0d1117: ink 14.6:1, green 8.4:1, red 5.3:1, muted 6.3:1.
+  Grid: every edge and baseline on a multiple of 4. No glow, no blur, no
+  gradients as decoration. Motion: none.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img"
+     aria-labelledby="bannerTitle bannerDesc" width="1400" height="360">
+  <title id="bannerTitle">InjectRange banner</title>
+  <desc id="bannerDesc">InjectRange, a deterministic regression range for
+    prompt-injection defences. Six probes meet a guard boundary; five are
+    blocked and one breaches, with the result lines below.</desc>
+
+  <rect x="0" y="0" width="1400" height="360" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <text x="64" y="96" font-family="-apple-system, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="700"><tspan fill="#e6edf3">inject</tspan><tspan fill="#3fb37f">range</tspan></text>
+
+  <text x="64" y="146" font-family="-apple-system, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#e6edf3">Deterministic regression range for prompt-injection defences</text>
+  <text x="64" y="176" font-family="-apple-system, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8b949e">Probe classes. Guard profiles. Corpus verification. Diff mode.</text>
+
+  <text x="64" y="252" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#8b949e">v1.0.4</text>
+  <text x="150" y="252" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#8b949e">MIT</text>
+  <text x="210" y="252" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#8b949e">Python 3.11+</text>
+
+  <text x="64" y="308" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="16" fill="#e6edf3">6 probes, 5 blocked, 1 breach</text>
+
+  <rect x="700" y="56" width="636" height="248" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="732" y="96" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="16" fill="#8b949e">range: strict</text>
+  <line x1="732" y1="112" x2="1304" y2="112" stroke="#30363d" stroke-width="1"/>
+
+  <rect x="732" y="132" width="72" height="16" rx="4" fill="#3fb37f"/>
+  <text x="820" y="145" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e6edf3">blocked</text>
+  <rect x="916" y="132" width="72" height="16" rx="4" fill="#3fb37f"/>
+  <text x="1004" y="145" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e6edf3">blocked</text>
+
+  <rect x="732" y="168" width="72" height="16" rx="4" fill="#3fb37f"/>
+  <text x="820" y="181" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e6edf3">blocked</text>
+  <rect x="916" y="168" width="72" height="16" rx="4" fill="#3fb37f"/>
+  <text x="1004" y="181" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e6edf3">blocked</text>
+
+  <rect x="732" y="204" width="72" height="16" rx="4" fill="#3fb37f"/>
+  <text x="820" y="217" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e6edf3">blocked</text>
+  <rect x="916" y="204" width="72" height="16" rx="4" fill="#e2543c"/>
+  <text x="1004" y="217" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#e2543c">breach</text>
+
+  <rect x="1256" y="132" width="4" height="88" rx="2" fill="#3fb37f"/>
+  <text x="1216" y="248" text-anchor="end" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="14" fill="#8b949e">guard boundary</text>
+
+  <line x1="732" y1="252" x2="1304" y2="252" stroke="#30363d" stroke-width="1"/>
+  <text x="732" y="284" font-family="&quot;Cascadia Mono&quot;, Consolas, monospace" font-size="15" fill="#8b949e">python -m injectrange run --guard strict</text>
+</svg>

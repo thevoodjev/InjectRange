@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.svg" width="260"
-     alt="InjectRange wordmark split at the inject and range morphemes, with one
-     accent mark showing a single probe that breaches the guard" />
+<img src="docs/assets/banner.svg" width="100%" alt="InjectRange banner: six probes meeting a guard boundary, five blocked and one breaching." />
 
 # InjectRange
 
