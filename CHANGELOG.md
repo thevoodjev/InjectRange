@@ -8,6 +8,7 @@ a Changelog, and the project uses semantic versioning.
 ### Changed
 
 - Probe class wording is under review for the next patch.
+- A corpus coverage view is being sketched.
 
 ## [1.0.4] - 2026-06-30
 
